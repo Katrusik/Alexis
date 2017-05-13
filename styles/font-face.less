@@ -28,10 +28,29 @@
   src: url(../fonts/LibreBaskerville-Regular.otf); /* Путь к файлу со шрифтом */
 }
 
+//Цвет заголовка
+@color-h: #313131;
+
+//Темно серый фон
+@bg_color1: #3f4049;
+
+//Светлосерый фон
+@bg_color2: #f7f7f7;
+
+
 h2{
   font: 60px/85px LibreBaskerville-Regular;
-  margin: 0 auto 45px;
-  color: #313131;
+  margin-bottom: 45px;
+  color: @color-h;
+}
+
+h3 {
+  font: 20px/20px Poppins-Medium;
+  color: @color-h;
+}
+
+h4 {
+  font: 30px/30px Poppins-Regular;
 }
 
 //Основной параграф

@@ -2,22 +2,52 @@
   height: 1000px;
   position: relative;
   padding-top: 150px;
+  h2 {
+    font-size: 50px;
+    line-height: 80px;
+  }
   #left-img{
-    width: 559px;
-    height: 702px;
-    border: 10px solid grey;
+    width: 555px;
+    height: 700px;
+    border: 10px solid #ccc;
+    img{
+      width: 555px;
+      height: 700px;
+    }
   }
   #about-us{
     background-color: white;
-    width: 650px;
-    height: 324px;
-    padding: 97px 82px 107px 97px;
-    -webkit-box-shadow: 36px 0px 20px rgba(0,0,0,0.05);//Добавить стили свечения
-    -moz-box-shadow: 36px 0px 20px rgba(0,0,0,0.05);
-    box-shadow: 36px 0px 20px rgba(0,0,0,0.05);
-    border:  1px solid grey; //Поправить цвет
+    width: 483px;
+    height: 346px;
+    padding: 95px 82px 107px 97px;
+    -webkit-box-shadow: 0 0 20px rgba(0,0,0,0.05);
+    -moz-box-shadow: 0 0 20px rgba(0,0,0,0.05);
+    box-shadow: 0 0 20px rgba(0,0,0,0.05);
     position: absolute;
     left: 46%;
     top:226px;
+    text-align: left;
+    background: #e2e2e2;
+    //background: -moz-linear-gradient(-90deg, #fc5f45 20%, #38c695 20%, #b27cf5 40%, #feb960 40%);
+    background: -webkit-linear-gradient(90deg,
+    #105B63 20%,
+    #FFFAD5 20%, #FFFAD5 40%,
+    #FFD34E 40%, #FFD34E 60%,
+    #DB9E36 60%, #DB9E36 80%,
+    #BD4932 80%
+    ) 0 0 / 100% .4em no-repeat,
+    -webkit-linear-gradient(-90deg,
+            #105B63 20%,
+            #FFFAD5 20%, #FFFAD5 40%,
+            #FFD34E 40%, #FFD34E 60%,
+            #DB9E36 60%, #DB9E36 80%,
+            #BD4932 80%
+    ) 0 100% / 100% .4em no-repeat;
+    //background: -o-linear-gradient(-90deg, #fc5f45 20%, #38c695 20%, #b27cf5 40%, #feb960 40%);
+    //background: -ms-linear-gradient(-90deg, #fc5f45 20%, #38c695 20%, #b27cf5 40%, #feb960 40%);
+    //background: linear-gradient(-90deg, #fc5f45 20%, #38c695 20%, #b27cf5 40%, #feb960 40%);
+    >p:nth-child(2){
+    padding-bottom: 39px;
+    }
   }
 }
